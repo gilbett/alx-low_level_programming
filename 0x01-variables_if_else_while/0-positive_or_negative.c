@@ -1,10 +1,10 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
- * main - Entry point for the program
- * Return - returns zero if the program runs successfully
+ * main -  This is the entry point of the program
+ * Return:  return 0 if it runs successfully
  */
 
 int main(void)
@@ -14,10 +14,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-		printf("%d is positive", n);
+		printf("%d is positive\n", n);
 	else if (n == 0)
-		printf("%d is zero", n);
+		printf("%d is zero\n", n);
 	else
-		printf("%d is negative", n);
+		printf("%d is negative\n", n);
 	return (0);
 }
