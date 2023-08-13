@@ -6,3 +6,5 @@ Task 4. Print alphabet with q and e missing
 Task 5. Numbers
 Task 6. Print digits using putchar
 Task 7. Prints the lowercase alphabet in reverse
+Task 8. Print numbers of base 16
+Task 8. Print numbers of base 16 in lowercase
