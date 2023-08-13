@@ -11,3 +11,4 @@ Task 8. Print numbers of base 16 in lowercase
 Task 9. Print combination of single-digit numbers
 Print combinations of two digits
 Task 11. Print combination of three digits
+Task 12. Print combination of two-digit numbers
