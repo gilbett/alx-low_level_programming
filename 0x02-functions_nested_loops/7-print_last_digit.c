@@ -9,16 +9,8 @@
 
 int print_last_digit(int n)
 {
-	int last_digit;
+	n = 8044;
 
-	if (n < 0)
-	{
-		last_digit = -1 * (n % 10);
-	}
-	else
-	{
-		last_digit = k % 10;
-	}
-	_putchar('0' + last_digit);
-	return (last_digit);
-}	
+	_putchar('0' + n);
+	return (n);
+}
