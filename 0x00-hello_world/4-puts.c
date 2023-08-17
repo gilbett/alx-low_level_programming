@@ -1,10 +1,19 @@
 #include <stdio.h>
 /**
- * main -  This program prints a string with puts
- * Return:  It should return 0 if it runs successfully
+ * main -  This is the entry point of the program
+ * Return:  return 0 if it runs successfully
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n == 0)
+		printf("%d is zero\n", n);
+	else
+		printf("%d is negative\n", n);
 	return (0);
-}
+
