@@ -3,6 +3,7 @@
 /**
  * print_line - This function draws a straight line
  * @n: The number of _ to be drawn
+ * Return: Alaways(void)
  */
 
 void print_line(int n)
