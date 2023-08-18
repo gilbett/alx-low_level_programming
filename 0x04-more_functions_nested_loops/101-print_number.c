@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * print_number - This function print an integer
- * @n: Variable of the integer
- * Return: Always (0) success
+ * print_number - A function to print integer
+ * @n:Integer to be printed
+ *
+ * Return: Always 0 (Success)
  */
 void print_number(int n)
 {
