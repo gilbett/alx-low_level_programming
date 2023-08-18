@@ -1,34 +1,35 @@
 #include <stdio.h>
-
 /**
  * main - This program print numbers and FizzBuzz
  * Description: Prints numbers, Fizz, and FizzBuzz
  * Return: Always (0) for Success
  */
+#include <stdio.h>
 
-int main(void)
+int main()
 {
-	int num;
+	int i;
+	int j;
 
-	for (num = 1; num <= 100; num++)
+	for (i = 1; i <= 100; i++)
 	{
-		if ((num % 3 == 0) && (num % 5 == 0))
+		if (i % 3 == 0 && i % 5 == 0)
 		{
 			printf("FizzBuzz ");
 		}
-		else if ((num % 3) == 0)
+		else if (i % 3 == 0)
 		{
 			printf("Fizz ");
 		}
-		else if ((num % 5) == 0)
+		else if (i % 5 == 0)
 		{
 			printf("Buzz ");
 		}
 		else
 		{
-			printf("%d ", num);
+			printf("%d ", i);
 		}
 	}
 	printf("\n");
-	return (0);
+	return 0;
 }
